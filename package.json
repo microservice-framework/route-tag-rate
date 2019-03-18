@@ -1,0 +1,23 @@
+{
+  "name": "@microservice-framework/route-tag-rate",
+  "version": "1.0.0",
+  "description": "Provide tag 'rate'. Easy to use tag that vote to route traffic to next tagged as a rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cs": "eslint --fix index.js includes/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microservice-framework/route-tag-rate.git"
+  },
+  "author": "Gormartsen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/microservice-framework/route-tag-rate/issues"
+  },
+  "homepage": "https://github.com/microservice-framework/route-tag-rate#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
